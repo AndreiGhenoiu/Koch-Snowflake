@@ -1,0 +1,3 @@
+This code will create a Koch snowflake. This fractal generation starts with a equilateral triangle, and with each 
+iteration, it breaks up each side into 3 pieces and creates an equilateral triangle out of the middle piece. This can
+continue indefinitely.
