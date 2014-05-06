@@ -26,10 +26,10 @@ void findMid2(float startX, float startY, float endX, float endY, float *midX, f
     float side1 = pow(startX - endX, 2);
     float side2 = pow(startY - endY,2);
     float segment = sqrt(side1+side2);
-   printf("segment length is %f", segment);
-   float newPointX = endX+segment*cos(normal*PI/180);
-   float newPointY = endY+segment*sin(normal*PI/180);
-   *midX = newPointX;
+    printf("segment length is %f", segment);
+    float newPointX = endX+segment*cos(normal*PI/180);
+    float newPointY = endY+segment*sin(normal*PI/180);
+    *midX = newPointX;
     *midY = newPointY;
 }
 
